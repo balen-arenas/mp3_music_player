@@ -211,7 +211,7 @@ The architecture is deliberately modular: `player.py` contains only playback log
 
 ---
 
-## Next steps / Recommended enhancements
+## Next steps / possible enhancements
 
 - Add volume controls and mute.
 - Add playlist controls (Next / Previous / Repeat / Shuffle).
@@ -219,8 +219,5 @@ The architecture is deliberately modular: `player.py` contains only playback log
 - Improve error reporting and logging (replace `print()` calls with Python `logging`).
 - Add media parsing to ensure duration is known before showing progress (e.g., call `media.parse()` or wait for parsed events).
 
----
 
-## License
 
-No license is included. If you want to publish this project, consider adding a `LICENSE` file (e.g., MIT).
